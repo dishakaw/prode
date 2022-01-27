@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+    
+   }
+   html{
+       font-size:65.5%;
+   
+   }
+
+   .main-div{
+       background: url(bg.jpg) no-repeat center center fixed; 
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       width: 100%;
+       min-height: 100vh;
+       display: grid;
+       place-items: center;
+   }
+   .main-div .logo{
+    background-color: none;
+    color: white;
+    font-size: 49px;
+    font-weight: bold;
+    line-height: 120px;
+    padding-left: 40px;
+    }
+   .inner-div{
+       width: 40vw;
+       background-color: #fff;
+       padding: 3rem 8rem;
+       border-radius: 1rem;
+       box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0, 0.4);
+   }
+   
+   .inner-div h2{
+       font-size: 3.5rem;
+       font-weight: 400;
+       margin-top: 1rem ;
+       
+   
+   }
+   .inner-div li{ 
+       font-size: 2rem;
+       margin-top: 1.5rem ;
+       list-style: none;
+   
+   }
+   
+   input{
+       cursor:pointer;
+   
+   
+   }
+   
+   #submit, .btn{
+       padding: 1rem 3rem;
+       outline: none;
+       font-size: 2rem;
+       font-size: 400;
+       display: block;
+       margin: auto;
+       border: none;
+       text-transform: uppercase;
+       color: #fff;
+       background-color: #74b9ff;
+       margin-top: 4rem;
+       cursor: pointer;
+   
+   
+   }
+   #nextLevel, .btn{
+       padding: 1rem 3rem;
+       outline: none;
+       font-size: 2rem;
+       font-size: 400;
+       display: block;
+       margin: auto;
+       border: none;
+       text-transform: uppercase;
+       color: #fff;
+       background-color: #74b9ff;
+       margin-top: 4rem;
+       cursor: pointer;
+   }
+   #nextLevel:hover{
+       background-color:#0984e3;
+    }
+       
+   #submit:hover{
+       background-color:#0984e3 ;
+   }
+   #ShowScore{
+       background-color: #dfe6ef;
+       margin-top: 3rem;
+       padding: 3rem 4rem;
+       box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0, 0.4);
+   }
+   #ShowScore h3{
+       font-size: 3rem;
+       text-align: center;
+   
+   }
+   #ShowScore .btn{
+   margin-top: 2rem;
+   background-color: #55efc4;
+   color: #2d3436;
+   
+   }
+   #ShowScore .btn:hover{
+       background-color: #00b894;
+       color: #fff;
+   }
+       
+   
+   .ScoreArea{
+       display:none;
+   }
