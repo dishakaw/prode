@@ -31,7 +31,7 @@
                     <label for="ans4" id="option4">Answer Option</label>
                 </li>
             </ul>
-            <button id="submit">submit</button>
+            <button id="submit">NEXT QUESTION</button>
             <button id = "nextLevel" >
             <a href="mcqsLevel3.php" target ="_self">Next Level</a>
             </button>

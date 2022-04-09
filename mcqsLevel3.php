@@ -30,9 +30,9 @@
                     <label for="ans4" id="option4">Answer Option</label>
                 </li>
             </ul>
-            <button id="submit">submit</button>
+            <button id="submit">NEXT QUESTION</button>
             <button id = "nextLevel" >
-            <a href="#" target ="_self">Veteran</a>
+            <a href="fillup.php" target ="_self">Veteran</a>
             </button>
 
             <div id="ShowScore" class="ScoreArea"></div>

@@ -14,8 +14,8 @@
         <nav class="flex">
             <div class="logo">PRODE</div>
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="page_home.php">Home</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
                 <li>
                     <a href="#">Levels
                         <i class="fas fa-caret-down"></i>
@@ -38,9 +38,9 @@
 
                     </a>
                  <ul>
-                  <li><a href="#">level 1</a></li>
-                  <li><a href="#">level 2</a></li>
-                  <li><a href="#">level 3</a></li>
+                  <li><a href="fillup.php" target ="_self">level 1</a></li>
+                  <li><a href="fillup2.php" target ="_self">level 2</a></li>
+                  <li><a href="fillup3.php" target ="_self">level 3</a></li>
                  </ul>
                 </li>
                 <li>
@@ -49,16 +49,17 @@
 
                     </a>
                  <ul>
-                  <li><a href="#">level 1</a></li>
-                  <li><a href="#">level 2</a></li>
-                  <li><a href="#">level 3</a></li>
+                  <li><a href="questionlevel1.php">level 1</a></li>
+                  <li><a href="questionlevel2.php">level 2</a></li>
+                  <li><a href="questionlevel3.php">level 3</a></li>
                  </ul>
                 </li>
+
                 
                   
                 </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="page_login.php">LOG OUT</a></li>  
             </ul>
         </nav>
     </div>
